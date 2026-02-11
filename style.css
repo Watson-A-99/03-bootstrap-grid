@@ -1,0 +1,70 @@
+/* Soft neutrals with warm accents for an inviting, sleek feel. */
+:root {
+	--cream-50: #f8f4ee;
+	--sand-100: #efe7dc;
+	--stone-300: #cfc6ba;
+	--stone-600: #6b6258;
+	--ink-900: #2a2622;
+	--accent-copper: #b47449;
+	--accent-terracotta: #c76a4b;
+	--accent-olive: #7a7a55;
+}
+
+body {
+	background-color: var(--cream-50);
+	color: var(--ink-900);
+}
+
+.bg-light {
+	background-color: var(--sand-100) !important;
+}
+
+.bg-dark {
+	background-color: var(--ink-900) !important;
+}
+
+.text-white-50 {
+	color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.btn-primary {
+	background-color: var(--accent-copper);
+	border-color: var(--accent-copper);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: var(--accent-terracotta);
+	border-color: var(--accent-terracotta);
+}
+
+.btn-outline-primary {
+	color: var(--accent-copper);
+	border-color: var(--accent-copper);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+	color: #ffffff;
+	background-color: var(--accent-copper);
+	border-color: var(--accent-copper);
+}
+
+.card {
+	border-color: var(--stone-300);
+	box-shadow: 0 10px 30px rgba(42, 38, 34, 0.08);
+}
+
+.navbar {
+	background-color: #ffffff !important;
+}
+
+.navbar-brand,
+.nav-link {
+	color: var(--ink-900);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	color: var(--accent-olive);
+}
